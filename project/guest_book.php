@@ -2,7 +2,9 @@
 session_start();
 if (isset($_SESSION['login'])) {
     echo "Привіт " . $_SESSION['login'];
+
 }
+//include 'header.php';
 ?>
 
 <h3>Гостьова книга</h3>
